@@ -10,7 +10,7 @@ $ pip install grouponefunctions
 
 ## Usage
 
-- TODO
+- The package has three functions: splitxy, listfun, and plotsquaredata.
 
 ## Contributing
 
