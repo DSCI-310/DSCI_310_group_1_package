@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "grouponefunctions"
-version = "0.1.0"
+version = "0.1.1"
 description = "A package containing the necessary functions to smoothly run the analysis in DSCI-310-Group-1"
 authors = ["Andres Perez, Daniel Hou, Zizhen Guo, Timothy Zhou"]
 license = "MIT"
