@@ -116,7 +116,7 @@ def plot_square_data(x_df, y_df, desiredFeatures, titles, txt):
 
 def list_abs(pre, transformers, steps, features):
     # This is the abstract function for list, used in Results part of the notebook
-    # @param pre is the preprocessor we're working w ith
+    # @param pre is the preprocessor we're working with
     # @param transformers is the name of the transformers for pre
     # @param steps is the steps name for pre
     # @param features is the category of features we're focusing on
