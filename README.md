@@ -1,18 +1,28 @@
 # grouponefunctions
 
-A package containing the necessary functions to smoothly run the analysis in DSCI-310-Group-1
+A package containing the necessary functions to smoothly run the analysis in DSCI-310-Group-1.
 
 ## Installation
 
+Note: The installation is not likely to proceed for Python version lower than 3.9.10. Please check your Python version the code below.
+
 ```bash
-$ pip install grouponefunctions
+python --version
+```
+
+Then you can install the package by the command below.
+
+```bash
+pip install grouponefunctions
 ```
 
 ## Usage
 
-- The package has three functions: splitxy, listfun, and plotsquaredata. 
+To implement the functions, `import` our package `grouponefunctions` as a module. The package has three functions: `splitxy`, `listfun`, and `plotsquaredata`. 
 
-- TODO
+Please refer to the documentation for a more detailed usage of each function.
+
+
 
 ## Contributing
 
