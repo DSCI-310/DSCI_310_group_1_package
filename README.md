@@ -21,6 +21,11 @@ X_train, y_train = grouponefunctions.split_xy(train_df, predictors, target)
 X_test, y_test = grouponefunctions.split_xy(test_df, predictors, target) 
 ```
 
+The second function `plot_square_data`
+
+The third function `list_abs`
+
+
 ## Contributing
 
 Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
