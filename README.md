@@ -42,11 +42,16 @@ plot_square_data(X_train, y_train, ["feature1", "feature2", "feature3"], ["title
 plot_square_data(dependent, independednts, ["income"], ["retirement_age"], "Income and Retirement Age Relation")
 ```
 
+### `list_abs`
 
+This function is the abstract function for list, used in Results part in the analysis. 
 
+```python
+from grouponefunctions.grouponefunction import list_abs
 
+list_abs(preprocessor, "pipeline-2", "onehotencoder", categorical_features)
+```
 
-The third function `list_abs`
 
 
 ## Contributing
