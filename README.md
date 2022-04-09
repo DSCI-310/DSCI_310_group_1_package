@@ -21,9 +21,9 @@ X_train, y_train = grouponefunctions.split_xy(train_df, predictors, target)
 X_test, y_test = grouponefunctions.split_xy(test_df, predictors, target) 
 ```
 
-The second function `plot_square_data`
+The second function `plot_square_data` can be used to create plots to display in a square manner.
 
-The third function `list_abs`
+The third function `list_abs` can be used to create a list for the result of our notebook.
 
 
 ## Contributing
