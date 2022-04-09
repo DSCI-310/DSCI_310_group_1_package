@@ -22,13 +22,13 @@ pip install grouponefunctions
 
 ### `split_xy`
 
- `split_xy` can be used to split data into predictors and target variables as follows:
+ `split_xy` can be used to split data into predictor feature and target variables as follows:
 
 ```python
 from grouponefunctions.grouponefunctions import split_xy
 
-X_train, y_train = split_xy(train_df, predictors, target)
-X_test, y_test = split_xy(test_df, predictors, target) 
+X_train, y_train = split_xy(train_df, ["feature1", "feature2", "feature3"], target)
+X_test, y_test = split_xy(test_df, ["feature1", "feature2", "feature3"], target) 
 ```
 
 ### `plot_square_data`
