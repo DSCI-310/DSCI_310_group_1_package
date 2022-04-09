@@ -10,9 +10,16 @@ $ pip install grouponefunctions
 
 ## Usage
 
-- The package has three functions: splitxy, listfun, and plotsquaredata. 
+grouponefunctions is primarily used for analysis of (Predicting students’ grades using multi-variable regression)[https://github.com/DSCI-310/DSCI-310-Group-1], but contains three general use functions.
 
-- TODO
+The first function `split_xy` can be used to split data into predictors and target variables as follows:
+
+```
+from grouponefunctions import grouponefunctions
+
+X_train, y_train = grouponefunctions.split_xy(train_df, predictors, target)
+X_test, y_test = grouponefunctions.split_xy(test_df, predictors, target) 
+```
 
 ## Contributing
 
